@@ -1,0 +1,12 @@
+* RQC - QuickCheck for Ruby
+  This is an implementation of QuickCheck in Ruby, ported from the
+  qc.js framework for Javascript. IT DOES NOT WORK YET (completely).
+
+  Property-based testing is a large topic that cannot be fully
+  explained in this README, but it is useful for:
+
+  - Testing protocols (including well-crafted APIs)
+  - Stateless behavior verification (without side-effects)
+  - Automatic edge-case detection through fuzzing
+  - Finding minimal failing test cases through shrinking
+  - Increasing the breadth of examples in existing test suites
